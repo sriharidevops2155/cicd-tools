@@ -2,6 +2,8 @@
 
 #resize disk from 20GB to 50GB
 growpart /dev/xvda 4
+# growpart /dev/nvme0n1 4
+
 
 lvextend -L +10G /dev/RootVG/rootVol
 lvextend -L +10G /dev/mapper/RootVG-varVol
