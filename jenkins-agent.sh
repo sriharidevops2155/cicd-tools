@@ -46,3 +46,9 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 # Verify installation
 helm version
+
+# Intall Maven for Java 
+dnf install maven -y
+
+#Install Python for Python projects
+dnf install python3 gcc python3-devel -y
